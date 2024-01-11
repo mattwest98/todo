@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>to-do App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="check-list.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+<div class="contenedor">
+    <div class="titulo">
+        <div id="fecha">11 de enero.</div>
+        <h1>Hola!</h1>
+        <span>Esta es tu lista de tareas.</span>
+    </div>
+    <div class="agregar-tarea">
+        <input type="text" id="input" placeholder="Agregue una tarea">
+        <i id="enter" class="fas fa-plus circle"></i>
+    </div>
+    <div class="seccion-tarea">
+        <ul id="lista">
+            <li>
+                <i class="far fa-circle" data="realizado" id="realizado"></i>
+                <p class="text line-trough">Comprar verduras en la verduleria</p>
+                <i class="fas fa-trash de" data="eliminado" id="eliminado"></i>
+            </li>
+        </ul>
+    </div>
+</div>
+<script src="index.js"></script>
+</body>
+</html>
